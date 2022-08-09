@@ -1,5 +1,3 @@
-//headers 
-
 1.#include<iostream>
 2.#include<string>
 3.#include<vector>
@@ -10,7 +8,6 @@
 8.#include<set>
 9.#include<bitset>
 10.#include<stack>
-
 11.#include<typeinfo>
 12.#include<memory>
 13.#include<exception>
@@ -21,7 +18,6 @@
 18.#include<locale>
 19.#include<functional>
 20.#include<sstream>
-
 21.#include<cstdlib>
 22.#include<cmath>
 23.#include<ctime>
@@ -32,5 +28,4 @@
 28.#include<cassert>
 29.#include<cfloat>
 30.#include<fstream>
-
 31.#include<utility>
