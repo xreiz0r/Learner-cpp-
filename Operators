@@ -1,9 +1,14 @@
 
 
 ( = ) operator for assignment
+[water = an object]
 
 ( == ) operator for equality
+[color yellow == color gold]
 
 ( += ) 
+[x+=y is the same as x = x+y]
+
 
 ( != ) operator for inequality
+[north != down]
