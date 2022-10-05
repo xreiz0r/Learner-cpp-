@@ -27,6 +27,8 @@ cout << "\n\nNew ISBN value is unmatching!!\n Proceed with new value: " << endl;
 }	
 }
 //IMPORTANT LINE outside while and else(print last transaction)
+ //Of value stored in Sales_item x before Sales_item y is active.
+ 
 cout << "\nTotals for: "<< x.isbn() << endl;
 cout << "Units: " << x.units_sold <<"  Revenue: "<<  x.revenue << endl;
 					
