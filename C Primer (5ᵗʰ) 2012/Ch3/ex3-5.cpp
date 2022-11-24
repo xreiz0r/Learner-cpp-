@@ -15,7 +15,5 @@ fin+=" ";
 cout << fin << "\n" ; 
 
 }
-
-
 return 0;
 }
