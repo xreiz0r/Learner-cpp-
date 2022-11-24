@@ -1,0 +1,57 @@
+
+https://www.hackucf.org/
+
+C file is read by Compiler
+Converts code into a sequency of operations 
+operations = sequency of bytes (op-codes)
+
+
+Every C/C++ program has 4 main components:
+HEAP
+STACK
+REGISTERS
+INSTRUCTIONS
+
+
+Architecture specific execution:
+64xbit 
+32xbit 
+
+HEAP 
+Are of memory designed for manual memory allocation
+(functions malloc, calloc)
+(global or static variables are declared)
+
+
+REGISTERES
+small storage areas in the processor used to store memory addresses, values and anything worth 8bytes or less.
+
+Within x86 Architectures 
+6 General registers used in a As-Needed basis:
+eax	ebx	ecx
+edx	esi	edi
+
+3 Reserved registers:
+ebp	esp	eip
+
+
+
+
+STACK
+Data structured comprised of elements that are managed via Push & Pop.
+
+PUSH =adds element to top of stack.
+
+POP = removes element from top of stack.
+
+ELEMENT = has a stack address 
+(TOP STACK = low address	BOTTOM STACK = high address)
+STACK GROWS from High addresses(BOTTOM) to Lower addresses(TOP)
+
+FUNCTION = gets a stack frame assigned to it, local vars inside function will get stored in its stack frame.
+
+STACK FRAME = is managed by 2 stack pointers.
+Pointing at the base of the stack frame of said function is register ebp(base pointer) containing the address of the base element of the current stack frame.
+ 
+Pointing at the top of the stack frame of said function is register esp(stack pointer) containing the address of the top element of the current stack frame.
+ALL stack addresses OUTSIDE the current stack frame is considered junk by the compiler.
